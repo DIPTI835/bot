@@ -3,6 +3,7 @@ import logging
 import os
 
 class BinanceClient:
+    
     def __init__(self, api_key, api_secret, base_url):
         self.client = Client(api_key, api_secret, testnet=True)
         self.client.API_URL = base_url
