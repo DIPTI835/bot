@@ -3,7 +3,7 @@ import logging
 import os
 from bot.client import BinanceClient
 
-def main():
+def main(): 
     parser = argparse.ArgumentParser(description="Binance Futures Testnet Trading Bot")
     parser.add_argument("--symbol", required=True)
     parser.add_argument("--side", choices=["BUY", "SELL"], required=True)
